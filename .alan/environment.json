@@ -1,0 +1,15 @@
+{
+  "packages": {
+    "apt": []
+  },
+  "env": {
+    "CI": "1"
+  },
+  "secrets": {},
+  "install": [
+    {
+      "name": "setup",
+      "run": "bash .alan/setup.sh"
+    }
+  ]
+}
